@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="js/pace.js"></script>
+  <title>Pace calculator</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<body>
+<div class="slider">
+  <ul class="slides">
+    <li>
+      <img src="img/trailrunners.jpg" class="responsive-img">
+      <div class="caption center-align">
+        <h3>Run pace calculator</h3>
+      </div>
+    </li>
+  </ul>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="input-field col s6">
+      <input type="text" id="imperial_pace" placeholder="Imperial pace"/>
+      <label for="imperial_pace">Imperial pace</label>
+    </div>
+    <div class="input-field col s6">
+      <input type="text" id="metric_pace" placeholder="Metric pace"/>
+      <label for="metric_pace">Metric pace</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="input-field col s6" id="distance_container">
+      <select id="distance">
+      </select>
+      <label for="distance">Distance</label>
+    </div>
+    <div class="input-field col s3 hide" id="custom_distance_container">
+      <input type="text" id="custom_distance" placeholder="enter distance">
+      <label for="custom_distance">Custom distance (km)</label>
+    </div>
+    <div class="input-field col s6">
+      <input type="text" id="distance_time" placeholder="time">
+      <label for="distance_time">Time</label>
+    </div>
+  </div>
+</div>
+</body>
+<footer class="page-footer grey">
+  <div class="footer-copyright grey darken-3">
+    <div class="container center">
+      <span>2019 Roman Verchikov</span>
+      <a href="https://github.com/roman-verchikov/run-pace">
+        <img src="img/GitHub-Mark-Light-32px.png" style="vertical-align:middle">
+      </a>
+    </div>
+  </div>
+</footer>
+</html>
